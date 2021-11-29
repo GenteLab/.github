@@ -3,10 +3,7 @@
 </div>
 
 ## EXCELÊNCIA EM CONTEÚDOS E SOLUÇÕES PARA APRENDIZAGEM
-***Soluções práticas que têm como foco o engajamento do seu público com o conteúdo certo***
+`Soluções práticas que têm como foco o engajamento do seu público com o conteúdo certo`
   
 
-### Siga-nos
-- [🤩 GenteLab](https://www.gentelab.com.br)
-- [🤓 Linkedin](https://www.linkedin.com/company/gentelab/mycompany)
-- [😍 instagram](https://www.instagram.com/gentelab)
+***Saiba mais em [GenteLab](https://www.gentelab.com.br)***
