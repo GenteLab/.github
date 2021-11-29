@@ -1,13 +1,16 @@
-<h1 align="center"> GenteLab <h1>
-## Hi there 👋
+<div align="center">
+  <img width="600em" src="https://scontent.fthe1-1.fna.fbcdn.net/v/t1.6435-9/148620484_547879759496890_5861401714544089336_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=aZofzuaMrCgAX-A8-d2&_nc_pt=1&_nc_ht=scontent.fthe1-1.fna&oh=1154e41aed8627ec01d826bb4cfe1ae4&oe=61CC7585"/>
+</div>
 
-<!--
+### EXCELÊNCIA EM CONTEÚDOS E SOLUÇÕES PARA APRENDIZAGEM
+Soluções práticas que têm como foco o engajamento do seu público com o conteúdo certo
+  
 
-**Here are some ideas to get you started:**
+### Siga-nos
+<a href="https://www.linkedin.com/company/gentelab/mycompany/" target="_blank">
+   <img src="https://www.gov.br/observatorio/en/academic-programs/graduate-program-in-geophysics/images/linkedin.png" height="30px">
+</a>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+<a href="https://www.instagram.com/gentelab/" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" height="30px">
+</a>
