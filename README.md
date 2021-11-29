@@ -1,3 +1,1 @@
-# .github
-
-# GenteLab
+.GitHub
