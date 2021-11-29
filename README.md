@@ -65,5 +65,5 @@ Corpo de um commit
 
 
 ### Exemplos:
-`:tada: / iniciando projeto`
-`:bug: / correcao de tela em loop
+`:tada: - iniciando projeto`
+`:bug: - correcao de tela em loop` 
