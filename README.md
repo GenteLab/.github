@@ -1,1 +1,1 @@
-<h1 aling="center" >Commits convencionais </h1>
+<h1 align="center" >Padrões de commits</h1>
