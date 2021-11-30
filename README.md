@@ -20,7 +20,7 @@ Corpo de uma brach
 
 ## Commits
 Corpo de um commit
-`<tipo>(opcional!)- <descrição> - jiraCode` 
+`<tipo>(opcional!) <descrição> - jiraCode` 
 `! com o exclamação, significa alteração importante`
   
 ### Tipos de Commits
@@ -66,9 +66,9 @@ Corpo de um commit
 
 
 ### Exemplos:
-|   **Sintaxe**                                      | **Resultado**                                       |
-|:---------------------------------------------------|:----------------------------------------------------|
-| `:tada: - iniciando projeto - OTT-923`             | :tada: - iniciando projeto - OTT-923                |
-| `:bug:(api!) - correcao de tela em loop - PROD-500`| :bug:(api!) - correcao de tela em loop - PROD-500   |
+|   **Sintaxe**                                    | **Resultado**                                     |
+|:-------------------------------------------------|:--------------------------------------------------|
+| `:tada: iniciando projeto - OTT-923`             | :tada: iniciando projeto - OTT-923                |
+| `:bug:(api!) correcao de tela em loop - PROD-500`| :bug:(api!) correcao de tela em loop - PROD-500   |
 
  
