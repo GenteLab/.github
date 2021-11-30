@@ -6,7 +6,7 @@ Corpo de uma brach
 
 ### Tipos de Branches
 - **docs**: apenas mudanças de documentação;
-- **feat**: uma nova funcionalidade;
+- **feature**: uma nova funcionalidade;
 - **fix**: a correção de um bug;
 - **perf**: mudança de código focada em melhorar performance;
 - **refactor**: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
@@ -14,13 +14,14 @@ Corpo de uma brach
 - **test**: adicionar ou corrigir testes.
 
 ### Exemplos:
-`feat/botao-de-editar-perfil`
+`feature/botao-de-editar-perfil`
 `fix/tela-branca-do-login`
 `perf/carregamento-de-conteudo`
 
 ## Commits
 Corpo de um commit
 `<tipo>(opcional)- <descrição> - jiraCode` 
+`! com o exclamação, significa alteração importante`
   
 ### Tipos de Commits
 |   **Commit type**          | **Emoji**                                     |
@@ -66,4 +67,4 @@ Corpo de um commit
 
 ### Exemplos:
 `:tada: - iniciando projeto - OTT-923`
-`:bug: - correcao de tela em loop - PROD-500` 
+`:bug:(api!) - correcao de tela em loop - PROD-500` 
