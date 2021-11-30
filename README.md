@@ -20,7 +20,7 @@ Corpo de uma brach
 
 ## Commits
 Corpo de um commit
-`<tipo>(opcional)- <descrição> - jiraCode` 
+`<tipo>(opcional!)- <descrição> - jiraCode` 
 `! com o exclamação, significa alteração importante`
   
 ### Tipos de Commits
