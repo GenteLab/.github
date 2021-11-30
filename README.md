@@ -66,5 +66,9 @@ Corpo de um commit
 
 
 ### Exemplos:
-`:tada: - iniciando projeto - OTT-923`
-`:bug:(api!) - correcao de tela em loop - PROD-500` 
+|   **Sintaxe**                                      | **Resultado**                                       |
+|:---------------------------------------------------|:----------------------------------------------------|
+| `:tada: - iniciando projeto - OTT-923`             | :tada: - iniciando projeto - OTT-923                |
+| `:bug:(api!) - correcao de tela em loop - PROD-500`| :bug:(api!) - correcao de tela em loop - PROD-500   |
+
+ 
