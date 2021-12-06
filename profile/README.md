@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./3.png" alt="Banner de informações sobre a GenteLab"/>
+  <img src="./profile/3.png" alt="Banner de informações sobre a GenteLab"/>
 </div>
 
 ## EXCELÊNCIA EM CONTEÚDOS E SOLUÇÕES PARA APRENDIZAGEM
