@@ -105,3 +105,7 @@ Corpo de um commit:
 | Add or update healthcheck                                    | :stethoscope: `:stethoscope:`                             |
 | Infrastructure related changes                               | :bricks: `:bricks:`                                       |
 | Improve developer experience                                 | :technologist: `:technologist:`                           |
+
+
+## Úteis
+- Extensão do vsCode "Gitmoji" criada por "Seaton Jiang", [Baixe aqui](https://marketplace.visualstudio.com/items?itemName=seatonjiang.gitmoji-vscode&ssr=false#overview) 
