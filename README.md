@@ -1,8 +1,13 @@
 # Padrões de Branches e Commits
 
 ## Branches
-Corpo de uma brach
+Corpo de uma brach:
 `<tipo>: <descrição>`
+
+### Exemplos:
+`feature/botao-de-editar-perfil`
+`fix/tela-branca-do-login`
+`perf/carregamento-de-conteudo`
 
 ### Tipos de Branches
 - **docs**: apenas mudanças de documentação;
@@ -13,62 +18,90 @@ Corpo de uma brach
 - **style**: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
 - **test**: adicionar ou corrigir testes.
 
-### Exemplos:
-`feature/botao-de-editar-perfil`
-`fix/tela-branca-do-login`
-`perf/carregamento-de-conteudo`
+#
 
 ## Commits
-Corpo de um commit
-`<tipo>(opcional!) <descrição> - jiraCode` 
-`! com o exclamação, significa alteração importante`
-  
-### Tipos de Commits
-|   **Commit type**          | **Emoji**                                     |
-|:---------------------------|:----------------------------------------------|
-| Initial commit             | :tada: `:tada:`                               |
-| New feature                | :sparkles: `:sparkles:`                       |
-| Bugfix                     | :bug: `:bug:`                                 |
-| Metadata                   | :card_index: `:card_index:`                   |
-| Documentation              | :books: `:books:`                             |
-| Documenting source code    | :bulb: `:bulb:`                               |
-| Performance                | :racehorse: `:racehorse:`                     |
-| Cosmetic                   | :lipstick: `:lipstick:`                       |
-| Tests                      | :rotating_light: `:rotating_light:`           |
-| Adding a test              | :white_check_mark: `:white_check_mark:`       |
-| Make a test pass           | :heavy_check_mark: `:heavy_check_mark:`       |
-| General update             | :zap: `:zap:`                                 |
-| Improve format/structure   | :art: `:art:`                                 |
-| Refactor code              | :hammer: `:hammer:`                           |
-| Removing code/files        | :fire: `:fire:`                               |
-| Continuous Integration     | :green_heart: `:green_heart:`                 |
-| Security                   | :lock: `:lock:`                               |
-| Upgrading dependencies     | :arrow_up: `:arrow_up:`                       |
-| Downgrading dependencies   | :arrow_down: `:arrow_down:`                   |
-| Translation                | :alien: `:alien:`                             |
-| Text                       | :pencil: `:pencil:`                           |
-| Critical hotfix            | :ambulance: `:ambulance:`                     |
-| Deploying stuff            | :rocket: `:rocket:`                           |
-| Work in progress           | :construction:  `:construction:`              |
-| Adding CI build system     | :construction_worker: `:construction_worker:` |
-| Analytics or tracking code | :chart_with_upwards_trend: `:chart_with_upwards_trend:` |
-| Removing a dependency      | :heavy_minus_sign: `:heavy_minus_sign:`       |
-| Adding a dependency        | :heavy_plus_sign: `:heavy_plus_sign:`         |
-| Configuration files        | :wrench: `:wrench:`                           |
-| Package.json in JS         | :package: `:package:`                         |
-| Merging branches           | :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` |
-| Bad code / need improv.    | :hankey: `:hankey:`                           |
-| Reverting changes          | :rewind: `:rewind:`                           |
-| Breaking changes           | :boom: `:boom:`                               |
-| Code review changes        | :ok_hand: `:ok_hand:`                         |
-| Accessibility              | :wheelchair: `:wheelchair:`                   |
-| Move/rename repository     | :truck: `:truck:`                             |
-
+Corpo de um commit:
+`<tipo> <descrição> - jiraCode` 
 
 ### Exemplos:
 |   **Sintaxe**                                    | **Resultado**                                     |
 |:-------------------------------------------------|:--------------------------------------------------|
-| `:tada: iniciando projeto - OTT-923`             | :tada: iniciando projeto - OTT-923                |
-| `:bug:(api!) correcao de tela em loop - PROD-500`| :bug:(api!) correcao de tela em loop - PROD-500   |
+| `:art: reestruturando codigo - OTT-923`          | :art: reestruturando codigo - OTT-923             |
+| `:coffin: codigo zoom antigo - PROD-500`         | :coffin: codigo zoom antigo - PROD-500            |
 
  
+  
+### Tipos de Commits
+
+| **Commit type**                                              | **Emoji**                                                 |
+| :------------------------------------------------------------| :---------------------------------------------------------|
+| Improve structure/format of the code                         | :art: `:art:`                                             |
+| Improve performance                                          | :zap: `:zap:`                                             |
+| Remove code or files                                         | :fire: `:fire:`                                           |
+| Fix a bug                                                    | :bug: `:bug:`                                             |
+| Critical hotfix                                              | :ambulance: `:ambulance:`                                 |
+| Introduce new features                                       | :sparkles: `:sparkles:`                                   |
+| Add or update documentation                                  | :memo: `:memo:`                                           |
+| Deploy stuff                                                 | :rocket: `:rocket:`                                       |
+| Add or update the UI and style files                         | :lipstick: `:lipstick:`                                   |
+| Begin a project                                              | :tada: `:tada:`                                           |
+| Add, update, or pass tests                                   | :white_check_mark: `:white_check_mark:`                   |
+| Fix security issues                                          | :lock: `:lock:`                                           |
+| Release/Version tags                                         | :bookmark: `:bookmark:`                                   |
+| Fix compiler/linter warnings                                 | :rotating_light: `:rotating_light:`                       |
+| Work in progress                                             | :construction: `:construction:`                           |
+| Fix CI Build                                                 | :green_heart: `:green_heart:`                             |
+| Downgrade dependencies                                       | :arrow_down: `:arrow_down:`                               |
+| Upgrade dependencies                                         | :arrow_up: `:arrow_up:`                                   |
+| Pin dependencies to specific versions                        | :pushpin: `:pushpin:`                                     |
+| Add or update CI build system                                | :construction_worker: `:construction_worker:`             |
+| Add or update analytics or track code                        | :chart_with_upwards_trend: `:chart_with_upwards_trend:`   |
+| Refactor code                                                | :recycle: `:recycle:`                                     |
+| Add a dependency                                             | :heavy_plus_sign: `:heavy_plus_sign:`                     |
+| Remove a dependency                                          | :heavy_minus_sign: `:heavy_minus_sign:`                   |
+| Add or update configuration files                            | :wrench: `:wrench:`                                       |
+| Add or update development scripts                            | :hammer: `:hammer:`                                       |
+| Internationalization and localization                        | :globe_with_meridians: `:globe_with_meridians:`           |
+| Fix typos                                                    | :pencil2: `:pencil2:`                                     |
+| Write bad code that needs to be improved                     | :poop: `:poop:`                                           |
+| Revert changes                                               | :rewind: `:rewind:`                                       |
+| Merge branches                                               | :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` |
+| Add or update compiled files or packages                     | :package: `:package:`                                     |
+| Update code due to external API changes                      | :alien: `:alien:`                                         |
+| Move or rename resources (e.g.: files, paths, routes)        | :truck: `:truck:`                                         |
+| Add or update license                                        | :page_facing_up: `:page_facing_up:`                       |
+| Introduce breaking changes                                   | :boom: `:boom:`                                           |
+| Add or update assets                                         | :bento: `:bento:`                                         |
+| Improve accessibility                                        | :wheelchair: `:wheelchair:`                               |
+| Add or update comments in source code                        | :bulb: `:bulb:`                                           |
+| Write code drunkenly                                         | :beers: `:beers:`                                         |
+| Add or update text and literals                              | :speech_balloon: `:speech_balloon:`                       |
+| Perform database related changes                             | :card_file_box: `:card_file_box:`                         |
+| Add or update logs                                           | :loud_sound: `:loud_sound:`                               |
+| Remove logs                                                  | :mute: `:mute:`                                           |
+| Add or update contributor(s)                                 | :busts_in_silhouette: `:busts_in_silhouette:`             |
+| Improve user experience/usability                            | :children_crossing: `:children_crossing:`                 |
+| Make architectural changes                                   | :building_construction: `:building_construction:`         |
+| Work on responsive design                                    | :iphone: `:iphone:`                                       |
+| Mock things                                                  | :clown_face: `:clown_face:`                               |
+| Add or update an easter egg                                  | :egg: `:egg:`                                             |
+| Add or update a .gitignore file                              | :see_no_evil: `:see_no_evil:`                             |
+| Add or update snapshots                                      | :camera_flash: `:camera_flash:`                           |
+| Perform experiments                                          | :alembic: `:alembic:`                                     |
+| Improve SEO                                                  | :mag: `:mag:`                                             |
+| Add or update types                                          | :label: `:label:`                                         |
+| Add or update seed files                                     | :seedling: `:seedling:`                                   |
+| Add, update, or remove feature flags                         | :triangular_flag_on_post: `:triangular_flag_on_post:`     |
+| Catch errors                                                 | :goal_net: `:goal_net:`                                   |
+| Add or update animations and transitions                     | :dizzy: `:dizzy:`                                         |
+| Deprecate code that needs to be cleaned up                   | :wastebasket: `:wastebasket:`                             |
+| Work on code related to authorization, roles and permissions | :passport_control: `:passport_control:`                   |
+| Simple fix for a non-critical issue                          | :adhesive_bandage: `:adhesive_bandage:`                   |
+| Data exploration/inspection                                  | :monocle_face: `:monocle_face:`                           |
+| Remove dead code                                             | :coffin: `:coffin:`                                       |
+| Add a failing test                                           | :test_tube: `:test_tube:`                                 |
+| Add or update business logic                                 | :necktie: `:necktie:`                                     |
+| Add or update healthcheck                                    | :stethoscope: `:stethoscope:`                             |
+| Infrastructure related changes                               | :bricks: `:bricks:`                                       |
+| Improve developer experience                                 | :technologist: `:technologist:`                           |
